@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <tModLoaderTargets Condition="'$(tModLoaderTargets)' == ''">..\tModLoader.targets</tModLoaderTargets>
+    </PropertyGroup>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+</Project>

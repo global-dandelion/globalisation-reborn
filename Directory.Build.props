@@ -1,0 +1,5 @@
+<Project>
+    <PropertyGroup>
+        <tModLoaderTargets>$(MSBuildThisFileDirectory)tModLoader.targets</tModLoaderTargets>
+    </PropertyGroup>
+</Project>

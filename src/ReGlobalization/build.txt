@@ -1,0 +1,3 @@
+displayName = Terraria Re:Globalization
+author = GlobalDandelion
+version = 0.1
